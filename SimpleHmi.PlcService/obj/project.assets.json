@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "DebugUtil/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DebugUtil.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DebugUtil.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DebugUtil/1.0.0": {
+      "type": "project",
+      "path": "../../OttimoProvider/DebugUtil/DebugUtil.csproj",
+      "msbuildProject": "../../OttimoProvider/DebugUtil/DebugUtil.csproj"
+    },
+    "Sharp7Library/1.0.0": {
+      "type": "project",
+      "path": "../Sharp7Library/Sharp7Library.csproj",
+      "msbuildProject": "../Sharp7Library/Sharp7Library.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "DebugUtil >= 1.0.0",
+      "Sharp7Library >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tiziano\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Work\\EasyHMI\\DriverS7\\SimpleHmi.PlcService\\SimpleHmi.PlcService.csproj",
+      "projectName": "SimpleHmi.PlcService",
+      "projectPath": "C:\\Work\\EasyHMI\\DriverS7\\SimpleHmi.PlcService\\SimpleHmi.PlcService.csproj",
+      "packagesPath": "C:\\Users\\Tiziano\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\EasyHMI\\DriverS7\\SimpleHmi.PlcService\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Tiziano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Work\\EasyHMI\\DriverS7\\Sharp7Library\\Sharp7Library.csproj": {
+              "projectPath": "C:\\Work\\EasyHMI\\DriverS7\\Sharp7Library\\Sharp7Library.csproj"
+            },
+            "C:\\Work\\EasyHMI\\OttimoProvider\\DebugUtil\\DebugUtil.csproj": {
+              "projectPath": "C:\\Work\\EasyHMI\\OttimoProvider\\DebugUtil\\DebugUtil.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
