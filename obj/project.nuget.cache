@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "tL0b2xk5LqI=",
+  "success": false,
+  "projectFilePath": "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Tiziano\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Tiziano\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.122\\microsoft.xaml.behaviors.wpf.1.1.122.nupkg.sha512",
+    "C:\\Users\\Tiziano\\.nuget\\packages\\prism.container.abstractions\\9.0.106\\prism.container.abstractions.9.0.106.nupkg.sha512",
+    "C:\\Users\\Tiziano\\.nuget\\packages\\prism.core\\9.0.537\\prism.core.9.0.537.nupkg.sha512",
+    "C:\\Users\\Tiziano\\.nuget\\packages\\prism.events\\9.0.537\\prism.events.9.0.537.nupkg.sha512",
+    "C:\\Users\\Tiziano\\.nuget\\packages\\prism.wpf\\9.0.537\\prism.wpf.9.0.537.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Work\\PlcService\\PlcService.csproj'. Check that the project reference is valid and that the project file exists.",
+      "projectPath": "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj",
+      "filePath": "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj",
+      "libraryId": "C:\\Work\\PlcService\\PlcService.csproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}
