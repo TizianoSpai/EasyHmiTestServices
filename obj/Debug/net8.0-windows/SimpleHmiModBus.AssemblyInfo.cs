@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleHmiModBus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03a2fc2305cfd8f4ac0f79d22fa5debbf457f8b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77023c7e2c4b594df4eaaf230c13cecb50be48bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleHmiModBus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleHmiModBus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

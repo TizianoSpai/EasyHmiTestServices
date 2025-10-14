@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj": {}
+    "C:\\Work\\TestModBus\\SimpleHmiModBus.csproj": {}
   },
   "projects": {
-    "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj": {
+    "C:\\Work\\TestModBus\\SimpleHmiModBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj",
+        "projectUniqueName": "C:\\Work\\TestModBus\\SimpleHmiModBus.csproj",
         "projectName": "SimpleHmiModBus",
-        "projectPath": "C:\\Work\\EasyHMI\\TestModBus\\SimpleHmiModBus.csproj",
+        "projectPath": "C:\\Work\\TestModBus\\SimpleHmiModBus.csproj",
         "packagesPath": "C:\\Users\\Tiziano\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\EasyHMI\\TestModBus\\obj\\",
+        "outputPath": "C:\\Work\\TestModBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
@@ -39,8 +39,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Work\\PlcService\\PlcService.csproj": {
-                "projectPath": "C:\\Work\\PlcService\\PlcService.csproj"
+              "C:\\PlcService\\PlcService.csproj": {
+                "projectPath": "C:\\PlcService\\PlcService.csproj"
               }
             }
           }

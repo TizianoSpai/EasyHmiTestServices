@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Work\EasyHMI\TestModBus\obj\Debug\net8.0-windows\
+C:\Work\TestModBus\obj\Debug\net8.0-windows\
 SimpleHmiModBus
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Work\EasyHMI\TestModBus\App.xaml
+C:\Work\TestModBus\App.xaml
 1-1644662438
 
 9-1713398138
 204-1014905745
 Views\MainWindow.xaml;
 
-True
+False
 
