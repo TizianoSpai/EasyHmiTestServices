@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Dapper.SimpleCRUD" Version="2.3.0" />
+    <PackageReference Include="NSModbus4" Version="4.0.2" />
+    <PackageReference Include="Snet.XinJE" Version="25.247.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataAccessShared">
+      <HintPath>..\Resources\DataAccessShared.dll</HintPath>
+    </Reference>
+    <Reference Include="DebugUtil">
+      <HintPath>..\Resources\DebugUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiLanguage">
+      <HintPath>..\DriverXNet_DLL\MultiLanguage.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharp7Library">
+      <HintPath>..\Resources\Sharp7Library.dll</HintPath>
+    </Reference>
+    <Reference Include="XNetClient">
+      <HintPath>..\DriverXNet_DLL\XNetClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

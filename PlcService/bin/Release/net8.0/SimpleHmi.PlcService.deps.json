@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SimpleHmi.PlcService/1.0.0": {
+        "dependencies": {
+          "Sharp7Library": "1.0.0"
+        },
+        "runtime": {
+          "SimpleHmi.PlcService.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "runtime": {
+          "Sharp7Library.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SimpleHmi.PlcService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sharp7Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

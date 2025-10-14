@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHmiModBus", "TestModBus\SimpleHmiModBus.csproj", "{B789EA4E-EE3A-783E-2E80-1DF1CE394CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcService", "PlcService\PlcService.csproj", "{E9DB6574-499A-824A-5C19-D9DF83795E3D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B789EA4E-EE3A-783E-2E80-1DF1CE394CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B789EA4E-EE3A-783E-2E80-1DF1CE394CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B789EA4E-EE3A-783E-2E80-1DF1CE394CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B789EA4E-EE3A-783E-2E80-1DF1CE394CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

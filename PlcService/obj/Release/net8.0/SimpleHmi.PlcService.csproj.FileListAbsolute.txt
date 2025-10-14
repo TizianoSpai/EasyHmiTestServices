@@ -1,0 +1,16 @@
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\bin\Release\net8.0\SimpleHmi.PlcService.deps.json
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\bin\Release\net8.0\SimpleHmi.PlcService.dll
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\bin\Release\net8.0\SimpleHmi.PlcService.pdb
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\bin\Release\net8.0\Sharp7Library.dll
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\bin\Release\net8.0\Sharp7Library.pdb
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.csproj.AssemblyReference.cache
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.AssemblyInfoInputs.cache
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.AssemblyInfo.cs
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.csproj.CoreCompileInputs.cache
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.sourcelink.json
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHm.30D37284.Up2Date
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.dll
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\refint\SimpleHmi.PlcService.dll
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\SimpleHmi.PlcService.pdb
+C:\Work\EasyHMI\DriverS7\SimpleHmi.PlcService\obj\Release\net8.0\ref\SimpleHmi.PlcService.dll
