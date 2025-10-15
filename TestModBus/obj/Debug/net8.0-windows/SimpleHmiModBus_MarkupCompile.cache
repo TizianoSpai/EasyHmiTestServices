@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Work\TestModBus\TestModBus\obj\Debug\net8.0-windows\
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\obj\Debug\net8.0-windows\
 SimpleHmiModBus
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Work\TestModBus\TestModBus\App.xaml
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\App.xaml
 1-1644662438
 
 7-871489969
-238812137165
+238-1593678202
 Views\MainWindow.xaml;
 
 False

@@ -1,66 +1,8 @@
-04/06/2025 07:52:01:965 --> 07:52:01	 Connection error: TCP : Connection Error
-04/06/2025 07:54:55:699 --> 07:54:55Connect => IP:192.168.0.2, rack:0, slot:1 
-04/06/2025 07:55:17:973 --> 07:55:17	Connect => IP:192.168.0.2, rack:0, slot:1 
-04/06/2025 08:58:29:124 --> 08:58:29	Connect => IP:192.168.0.2, rack:0, slot:1 
-04/06/2025 08:58:31:366 --> 08:58:31	 Connection error: TCP : Connection Error
-04/06/2025 09:00:02:340 --> 09:00:02	Connect => IP:192.168.0.2, rack:0, slot:1 
-04/06/2025 09:00:04:582 --> 09:00:04	 Connection error: TCP : Connection Error
-22/07/2025 09:30:34:787 --> 09:30:34	Connect => IP:192.168.0.2
-22/07/2025 09:30:34:790 --> 09:30:34	Connect => IP:192.168.0.2
-22/07/2025 09:33:24:673 --> 09:33:24	Connect => IP:192.168.0.2
-22/07/2025 09:33:24:676 --> 09:33:24	Connect => IP:192.168.0.2
-22/07/2025 09:35:16:438 --> 09:35:16	Connect => IP:192.168.0.2
-22/07/2025 09:35:16:442 --> 09:35:16	Connect => IP:192.168.0.2
-08/09/2025 11:20:58:871 --> 11:20:58	Attiva Service
-08/09/2025 11:20:59:196 --> 11:20:59	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 11:38:23:864 --> 11:38:23	Attiva Service
-08/09/2025 11:38:24:156 --> 11:38:24	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 11:53:58:887 --> 11:53:58	Attiva Service
-08/09/2025 11:53:59:440 --> 11:53:59	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:05:37:550 --> 15:05:37	Attiva Service
-08/09/2025 15:05:37:984 --> 15:05:37	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:10:04:701 --> 15:10:04	Attiva Service
-08/09/2025 15:10:05:018 --> 15:10:05	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:14:08:241 --> 15:14:08	Attiva Service
-08/09/2025 15:14:08:640 --> 15:14:08	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:14:23:276 --> 15:14:23	Attiva Service
-08/09/2025 15:14:23:611 --> 15:14:23	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:19:03:956 --> 15:19:03	Attiva Service
-08/09/2025 15:19:04:318 --> 15:19:04	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:24:53:072 --> 15:24:53	Attiva Service
-08/09/2025 15:24:53:378 --> 15:24:53	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:27:30:377 --> 15:27:30	Attiva Service
-08/09/2025 15:27:30:720 --> 15:27:30	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:28:02:202 --> 15:28:02	Attiva Service
-08/09/2025 15:28:02:535 --> 15:28:02	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:30:12:559 --> 15:30:12	Attiva Service
-08/09/2025 15:30:12:859 --> 15:30:12	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:33:13:725 --> 15:33:13	Attiva Service
-08/09/2025 15:33:14:123 --> 15:33:14	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:50:54:050 --> 15:50:54	Attiva Service
-08/09/2025 15:50:54:390 --> 15:50:54	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:53:38:908 --> 15:53:38	Attiva Service
-08/09/2025 15:53:39:215 --> 15:53:39	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:58:40:505 --> 15:58:40	Attiva Service
-08/09/2025 15:58:40:851 --> 15:58:40	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:58:45:835 --> 15:58:45	Connect => IP:192.168.6.31
-08/09/2025 15:59:36:686 --> 15:59:36	Attiva Service
-08/09/2025 15:59:36:978 --> 15:59:36	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 15:59:39:064 --> 15:59:39	Connect => IP:192.168.6.31
-08/09/2025 15:59:43:037 --> 15:59:43	Connect => IP:192.168.6.31
-08/09/2025 15:59:58:801 --> 15:59:58	Attiva Service
-08/09/2025 15:59:59:089 --> 15:59:59	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 16:00:03:149 --> 16:00:03	Connect => IP:192.168.6.31
-08/09/2025 16:01:16:366 --> 16:01:16	Attiva Service
-08/09/2025 16:01:16:685 --> 16:01:16	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 16:01:22:010 --> 16:01:22	Connect => IP:192.168.6.31
-08/09/2025 16:03:03:377 --> 16:03:03	Attiva Service
-08/09/2025 16:03:03:708 --> 16:03:03	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 16:10:14:862 --> 16:10:14	Attiva Service
-08/09/2025 16:10:15:197 --> 16:10:15	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 16:13:17:092 --> 16:13:17	Attiva Service
-08/09/2025 16:13:17:480 --> 16:13:17	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-08/09/2025 16:36:08:197 --> 16:36:08	Attiva Service
-08/09/2025 16:36:08:585 --> 16:36:08	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
-09/09/2025 09:39:20:946 --> 09:39:20	Attiva Service
-09/09/2025 09:39:21:260 --> 09:39:21	 Connection error: An error occurred trying to start process '\' with working directory 'C:\Work\EasyHMI\DriverXNet\SimpleHmi\bin\Debug\net8.0-windows'. Accesso negato.
+15/10/2025 08:31:40:884 --> 08:31:40	 start 192.168.1.211:502
+
+15/10/2025 08:31:40:911 --> 08:31:40	 connected 
+
+15/10/2025 08:31:40:912 --> 08:31:40	 _client Modbus.Device.ModbusIpMaster
+
+15/10/2025 08:31:40:912 --> 08:31:40	 ValueReaded Modbus.Device.ModbusIpMaster
+
