@@ -1,21 +1,6 @@
-﻿using Modbus;
+﻿using System.Net.Sockets;
 using Modbus.Device;
-using Sharp7;
-using Snet.Model.data;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Net;
-using System.Net.Sockets;
-using System.Text;
-using System.Threading;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Threading.Tasks;
-using System.Timers;
 using Trace;
-using XNetClient;
 
 
 namespace PlcService
@@ -35,12 +20,16 @@ namespace PlcService
     // Modifica la dichiarazione dell'evento ValuesRefreshed per renderlo nullable
     public event EventHandler? ValuesRefreshed;
     public ConnectionStates ConnectionState { get; private set; }
+    //public bool ReqStop { get; private set; }
+    public int MultiReadLoopState { get; private set; }
 
     public ModbusService(/*MainViewModel viewModel*/)
     {
       clientTcp = new TcpClient();
       _client = null;
+      MultiReadLoopState = 0; // 0=Ready; 1=ReqStopOn; 2=InLoop
     }
+
     public async Task<bool> ConnectAsync(string ip, int port)
     {
       TraceDbg.TraceON = true;
@@ -49,7 +38,7 @@ namespace PlcService
       try
       {
         // ensure we have a fresh, usable TcpClient
-        if (clientTcp == null || clientTcp.Client == null)
+        if(clientTcp == null || clientTcp.Client == null)
           clientTcp = new TcpClient();
 
         if(!clientTcp.Connected)
@@ -71,9 +60,13 @@ namespace PlcService
       ConnectionState = ConnectionStates.Online;
       return true;
     }
+
     public bool Disconnect()
     {
-      _cts.Cancel();
+      if(MultiReadLoopState != 0)
+        return false;
+
+      //_cts.Cancel();
 
       if(_client != null)
       {
@@ -98,6 +91,13 @@ namespace PlcService
       bool[] res = new bool[len];
       try
       {
+        if(ConnectionState == ConnectionStates.Offline)
+        {
+          ValueReaded = "Not Connected !";
+          OnValuesRefreshed();
+          return res;
+        }
+
         ValueReaded = "";
         res = GetCoils((uint)reg, (uint)len);
         for(int i = 0; i < len; i++)
@@ -146,9 +146,16 @@ namespace PlcService
       ushort[] res = null;
       try
       {
+        if(ConnectionState == ConnectionStates.Offline)
+        {
+          ValueReaded = "Not Connected !";
+          OnValuesRefreshed();
+          return res;
+        }
+
         ValueReaded = "";
         res = GetHoldingRegs((uint)reg, (uint)len);
-        for(int i=0; i<len; i++)
+        for(int i = 0; i<len; i++)
           ValueReaded = ValueReaded + res[i].ToString() + " ";
       }
       catch(Exception ex)
@@ -188,7 +195,12 @@ namespace PlcService
 
     public async Task StartPollingAsync(string ip, int port, CancellationToken token)
     {
-      while(!token.IsCancellationRequested)
+      if(MultiReadLoopState != 0)
+        return;
+      MultiReadLoopState = 2;
+
+      //while(!token.IsCancellationRequested)
+      while(MultiReadLoopState == 2)
       {
         try
         {
@@ -211,25 +223,38 @@ namespace PlcService
           //});
           OnValuesRefreshed();
         }
-        catch
+        catch(Exception ex) when(!(ex is OperationCanceledException))
         {
           // Gestione errori, log o retry
         }
 
-        await Task.Delay(50, token);
+        try
+        {
+          await Task.Delay(50, token);
+        }
+        catch(OperationCanceledException)
+        {
+          // expected on cancel — break out to finish gracefully
+          break;
+        }
       }
+      MultiReadLoopState = 0;
     }
 
 
     public async void StartTest(string ip)
     {
-      await StartPollingAsync(ip, 0, _cts.Token);
+      if(ConnectionState == ConnectionStates.Online)
+        await StartPollingAsync(ip, 0, _cts.Token);
     }
 
 
     public void StopTest()
     {
-      _cts.Cancel();
+      //_cts.Cancel();
+
+      if(ConnectionState == ConnectionStates.Online)
+        MultiReadLoopState = 1;
     }
 
     private void OnValuesRefreshed()
