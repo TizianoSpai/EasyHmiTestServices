@@ -1,4 +1,5 @@
-﻿using Modbus.Device;  // Namespace NSModbus4
+﻿using Modbus;
+using Modbus.Device;
 using Sharp7;
 using Snet.Model.data;
 using System;
@@ -23,7 +24,7 @@ namespace PlcService
   public class ModbusService
   {
     private ModbusIpMaster? _client;
-    private readonly TcpClient clientTcp;
+    private /*readonly*/ TcpClient clientTcp;
     //private readonly DataProvider _dataProv;
     private readonly CancellationTokenSource _cts = new();
     public int TestReg { get; set; }
@@ -31,7 +32,8 @@ namespace PlcService
     public string? ValueReaded { get; set; }
 
     private volatile object _locker = new object();
-    public event EventHandler ValuesRefreshed;
+    // Modifica la dichiarazione dell'evento ValuesRefreshed per renderlo nullable
+    public event EventHandler? ValuesRefreshed;
     public ConnectionStates ConnectionState { get; private set; }
 
     public ModbusService(/*MainViewModel viewModel*/)
@@ -43,25 +45,42 @@ namespace PlcService
     {
       TraceDbg.TraceON = true;
       port = 502;
+
       try
       {
-        TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"\t start {ip}:{port}\n");
-        await clientTcp.ConnectAsync(ip, port);
-        TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"\t connected \n");
-        _client = ModbusIpMaster.CreateIp(clientTcp);
-        TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"\t _client {_client}\n");
-        ValueReaded = _client.ToString();
-        TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"\t ValueReaded {ValueReaded}\n");
+        // ensure we have a fresh, usable TcpClient
+        if (clientTcp == null || clientTcp.Client == null)
+          clientTcp = new TcpClient();
+
+        if(!clientTcp.Connected)
+        {
+          TraceDbg.TRACE($"{DateTime.Now:HH:mm:ss}\t start {ip}:{port}\n");
+          await clientTcp.ConnectAsync(ip, port);
+          TraceDbg.TRACE($"{DateTime.Now:HH:mm:ss}\t connected \n");
+
+          _client = ModbusIpMaster.CreateIp(clientTcp);
+          TraceDbg.TRACE($"{DateTime.Now:HH:mm:ss}\t _client {_client}\n");
+          ValueReaded = _client?.ToString();
+        }
       }
       catch(Exception ex)
       {
-        TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"\t Error: {ex.Message}\n");
+        TraceDbg.TRACE($"{DateTime.Now:HH:mm:ss}\t Error: {ex.Message}\n");
+        return false;
       }
+      ConnectionState = ConnectionStates.Online;
       return true;
     }
     public bool Disconnect()
     {
       _cts.Cancel();
+
+      if(_client != null)
+      {
+        _client.Dispose();
+        _client = null;
+        ConnectionState = ConnectionStates.Offline;
+      }
       return true;
     }
 
@@ -76,14 +95,13 @@ namespace PlcService
       var strings = pars.Split('-');
       int reg = Convert.ToInt32(strings[0].Replace("REG", ""));
       int len = Convert.ToInt32(strings[1].Replace("LEN", ""));
-      bool[] res = null;
+      bool[] res = new bool[len];
       try
       {
         ValueReaded = "";
         res = GetCoils((uint)reg, (uint)len);
-        for(int i = 0; i<len; i++)
-          ValueReaded = res[i] ? "true" : "false" + " ";
-
+        for(int i = 0; i < len; i++)
+          ValueReaded += (res[i] ? "true" : "false") + " ";
       }
       catch(Exception ex)
       {

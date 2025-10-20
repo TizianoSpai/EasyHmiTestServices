@@ -366,15 +366,6 @@
           }
         }
       },
-      "NSModbus4/4.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/NModbus4.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/NModbus4.dll": {}
-        }
-      },
       "protobuf-net/3.2.56": {
         "type": "package",
         "dependencies": {
@@ -2535,19 +2526,6 @@
         "packageIcon.png"
       ]
     },
-    "NSModbus4/4.0.2": {
-      "sha512": "kquf8yKba977tegUJsPq3yAqkECJHl6U6ncOhcg97XvGeMmP5qxHOYWJgmg9TJwcJdzTLBE26DOD+N4+GBCnDQ==",
-      "type": "package",
-      "path": "nsmodbus4/4.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/NModbus4.dll",
-        "lib/netstandard2.0/NModbus4.dll",
-        "nsmodbus4.4.0.2.nupkg.sha512",
-        "nsmodbus4.nuspec"
-      ]
-    },
     "protobuf-net/3.2.56": {
       "sha512": "4IPJeTYAMNewlN8MDaFkcmR/9hLhJeo9eARnTh104zh7mf+vXT2gu5MUfUnkSQU+CH578Q6vcdU7LQDQPG6eaw==",
       "type": "package",
@@ -3678,7 +3656,6 @@
     "net8.0": [
       "Dapper >= 2.1.35",
       "Dapper.SimpleCRUD >= 2.3.0",
-      "NSModbus4 >= 4.0.2",
       "Snet.XinJE >= 25.247.1"
     ]
   },
@@ -3734,10 +3711,6 @@
           "Dapper.SimpleCRUD": {
             "target": "Package",
             "version": "[2.3.0, )"
-          },
-          "NSModbus4": {
-            "target": "Package",
-            "version": "[4.0.2, )"
           },
           "Snet.XinJE": {
             "target": "Package",

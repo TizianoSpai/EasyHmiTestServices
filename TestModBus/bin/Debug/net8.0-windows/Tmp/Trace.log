@@ -6,3 +6,705 @@
 
 15/10/2025 08:31:40:912 --> 08:31:40	 ValueReaded Modbus.Device.ModbusIpMaster
 
+15/10/2025 09:13:59:058 --> 09:13:59	 start 192.168.1.201:502
+
+15/10/2025 09:20:20:596 --> 09:20:20	 start 192.168.1.201:502
+
+15/10/2025 10:00:35:304 --> 10:00:35	 start 192.168.1.201:502
+
+15/10/2025 10:00:35:329 --> 10:00:35	 connected 
+
+15/10/2025 10:00:35:330 --> 10:00:35	 _client Modbus.Device.ModbusIpMaster
+
+15/10/2025 10:00:35:330 --> 10:00:35	 ValueReaded Modbus.Device.ModbusIpMaster
+
+15/10/2025 13:54:17:185 --> 13:54:17	 start 192.168.1.201:502
+
+15/10/2025 13:54:17:225 --> 13:54:17	 connected 
+
+15/10/2025 13:54:17:226 --> 13:54:17	 _client Modbus.Device.ModbusIpMaster
+
+15/10/2025 13:54:17:227 --> 13:54:17	 ValueReaded Modbus.Device.ModbusIpMaster
+
+15/10/2025 13:54:43:201 --> 13:54:43	 start 192.168.1.211:502
+
+15/10/2025 13:54:45:411 --> 13:54:45	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 08:08:44:799 --> 08:08:44	 start 192.168.1.211:502
+
+17/10/2025 08:08:44:850 --> 08:08:44	 connected 
+
+17/10/2025 08:08:51:240 --> 08:08:51	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 08:08:51:247 --> 08:08:51	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 08:09:34  : 08:09:34	 Read reg:M 0-3 
+TX: 0, 1, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 1, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 1, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 3 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 2, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 2, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 2, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 2 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 3, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 3, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 3, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 1 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 4, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 4, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 4, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 0 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+17/10/2025 08:10:16  : 08:10:16	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:10:18  : 08:10:18	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:10:38  : 08:10:38	 Read reg:M 0-3 
+TX: 0, 5, 0, 0, 0, 6, 1, 3, 0, 0, 0, 3
+MBAP header: 0, 5, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 5, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+17/10/2025 08:14:57  : 08:14:57	 Read reg:M 0-3 
+TX: 0, 6, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+17/10/2025 08:22:14:095 --> 08:22:14	 start 192.168.1.211:502
+
+17/10/2025 08:22:14:114 --> 08:22:14	 connected 
+
+17/10/2025 08:24:06:295 --> 08:24:06	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 08:24:06:299 --> 08:24:06	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 08:26:34  : 08:26:34	 Read reg:M 0-3 
+TX: 0, 1, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 1, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 1, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 3 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 2, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 2, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 2, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 2 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 3, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 3, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 3, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 1 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 4, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 4, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 4, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 0 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+17/10/2025 08:26:42  : 08:26:42	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:26:43  : 08:26:43	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:26:51  : 08:26:51	 Read reg:M 0-3 
+TX: 0, 5, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 5, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 5, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 3 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 6, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 6, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 6, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 2 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 7, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 7, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 7, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 1 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 8, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 8, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 8, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 0 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+17/10/2025 08:31:28  : 08:31:28	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:31:28  : 08:31:28	 Read error Response slave address does not match request. Expected 1, received 0.
+17/10/2025 08:31:30  : 08:31:30	 Read reg:M 0-3 
+TX: 0, 9, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 9, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 9, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 3 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 10, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 10, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 10, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 2 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 11, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 11, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 11, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 1 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+TX: 0, 12, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 12, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 12, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+IOException, 0 retries remaining - System.IO.IOException: Response slave address does not match request. Expected 1, received 0.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 235
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message) in C:\Users\user\Documents\Visual Studio 2022\PROJECTS\NModbus4-Portable\NModbus4\IO\ModbusTransport.cs:line 161
+17/10/2025 09:26:59  : 09:26:59	 Read reg:M 0-3 
+17/10/2025 09:27:15  : 09:27:15	 Read reg:M 0-3 
+TX: 0, 1, 0, 0, 0, 6, 0, 3, 0, 0, 0, 3
+MBAP header: 0, 1, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 1, 0, 0, 0, 9, 0, 3, 6, 0, 0, 0, 0, 0, 0
+17/10/2025 09:36:56:623 --> 09:36:56	 start 192.168.1.211:502
+
+17/10/2025 09:36:56:644 --> 09:36:56	 connected 
+
+17/10/2025 09:36:56:645 --> 09:36:56	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 09:36:56:645 --> 09:36:56	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 09:37:08  : 09:37:08	 Read reg:M 0-3 
+TX: 0, 1, 0, 0, 0, 6, 1, 3, 0, 0, 0, 3
+MBAP header: 0, 1, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 1, 0, 0, 0, 9, 1, 3, 6, 0, 0, 0, 0, 0, 0
+17/10/2025 09:37:29  : 09:37:29	 Read reg:M 0-3 
+TX: 0, 2, 0, 0, 0, 6, 1, 3, 0, 0, 0, 3
+MBAP header: 0, 2, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 2, 0, 0, 0, 9, 1, 3, 6, 0, 0, 0, 0, 0, 0
+17/10/2025 09:38:35  : 09:38:35	 Read reg:M 0-3 
+TX: 0, 3, 0, 0, 0, 6, 1, 3, 0, 0, 0, 3
+MBAP header: 0, 3, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 3, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+17/10/2025 09:40:30  : 09:40:30	 Read reg:M 0-3 
+TX: 0, 4, 0, 0, 0, 6, 1, 3, 0, 0, 0, 3
+MBAP header: 0, 4, 0, 0, 0, 9
+9 bytes in PDU.
+PDU: 9
+RX: 0, 4, 0, 0, 0, 9, 1, 3, 6, 0, 11, 0, 22, 0, 33
+17/10/2025 11:31:32:898 --> 11:31:32	 start 192.168.1.211:502
+
+17/10/2025 11:31:32:936 --> 11:31:32	 connected 
+
+17/10/2025 11:31:32:938 --> 11:31:32	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:31:32:938 --> 11:31:32	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:31:39  : 11:31:39	 Read reg:M 0-9 
+TX: 0, 1, 0, 0, 0, 6, 1, 3, 0, 0, 0, 9
+MBAP header: 0, 1, 0, 0, 0, 21
+21 bytes in PDU.
+PDU: 21
+RX: 0, 1, 0, 0, 0, 21, 1, 3, 18, 0, 11, 0, 22, 0, 33, 0, 44, 0, 55, 0, 66, 0, 77, 0, 88, 0, 99
+17/10/2025 11:38:05:029 --> 11:38:05	 start 192.168.1.211:502
+
+17/10/2025 11:38:16:383 --> 11:38:16	 connected 
+
+17/10/2025 11:38:32:984 --> 11:38:32	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:38:46:640 --> 11:38:46	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:43:21:432 --> 11:43:21	 start 192.168.1.211:502
+
+17/10/2025 11:43:26:990 --> 11:43:26	 connected 
+
+17/10/2025 11:43:29:119 --> 11:43:29	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:44:00:036 --> 11:44:00	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:44:24:037 --> 11:44:24	 start 192.168.1.211:502
+
+17/10/2025 11:44:29:081 --> 11:44:29	 Error: Richiesta di connessione inoltrata ad un socket già connesso.
+
+17/10/2025 11:48:17:260 --> 11:48:17	 start 192.168.1.211:502
+
+17/10/2025 11:48:22:786 --> 11:48:22	 connected 
+
+17/10/2025 11:48:44:911 --> 11:48:44	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:49:03:960 --> 11:49:03	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:51:53:448 --> 11:51:53	 start 192.168.1.211:502
+
+17/10/2025 11:52:00:129 --> 11:52:00	 connected 
+
+17/10/2025 11:52:00:132 --> 11:52:00	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:52:00:133 --> 11:52:00	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:52:08:819 --> 11:52:08	 start 192.168.1.211:502
+
+17/10/2025 11:52:41:514 --> 11:52:41	 Error: Object reference not set to an instance of an object.
+
+17/10/2025 11:52:44:611 --> 11:52:44	 start 192.168.1.211:502
+
+17/10/2025 11:52:55:171 --> 11:52:55	 Error: Object reference not set to an instance of an object.
+
+17/10/2025 11:52:57:556 --> 11:52:57	 start 192.168.1.211:502
+
+17/10/2025 11:55:19:764 --> 11:55:19	 start 192.168.1.211:502
+
+17/10/2025 11:55:25:374 --> 11:55:25	 connected 
+
+17/10/2025 11:55:25:376 --> 11:55:25	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:55:25:377 --> 11:55:25	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 11:55:33:899 --> 11:55:33	 start 192.168.1.211:502
+
+17/10/2025 12:00:58:691 --> 12:00:58	 Error: Object reference not set to an instance of an object.
+
+17/10/2025 12:01:02:034 --> 12:01:02	 start 192.168.1.211:502
+
+17/10/2025 12:01:14:894 --> 12:01:14	 start 192.168.1.211:502
+
+17/10/2025 12:01:17:183 --> 12:01:17	 connected 
+
+17/10/2025 12:01:17:185 --> 12:01:17	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 12:01:17:190 --> 12:01:17	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 12:06:33:962 --> 12:06:33	 start 192.168.1.211:502
+
+17/10/2025 12:13:11:756 --> 12:13:11	 start 192.168.1.211:502
+
+17/10/2025 12:13:15:181 --> 12:13:15	 connected 
+
+17/10/2025 12:13:15:183 --> 12:13:15	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 12:13:15:184 --> 12:13:15	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 12:21:37:224 --> 12:21:37	 start 192.168.1.211:502
+
+17/10/2025 12:58:50:005 --> 12:58:49	 start 192.168.1.211:502
+
+17/10/2025 13:00:32:905 --> 13:00:32	 start 192.168.1.211:502
+
+17/10/2025 13:00:32:963 --> 13:00:32	 connected 
+
+17/10/2025 13:00:32:967 --> 13:00:32	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:00:32:968 --> 13:00:32	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:00:46:583 --> 13:00:46	 start 192.168.1.211:502
+
+17/10/2025 13:00:46:688 --> 13:00:46	 Error: Richiesta di connessione inoltrata ad un socket già connesso.
+
+17/10/2025 13:03:30:192 --> 13:03:30	 start 192.168.1.211:502
+
+17/10/2025 13:03:30:223 --> 13:03:30	 connected 
+
+17/10/2025 13:03:30:225 --> 13:03:30	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:03:30:226 --> 13:03:30	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:03:49:491 --> 13:03:49	 start 192.168.1.211:502
+
+17/10/2025 13:08:33:372 --> 13:08:33	 start 192.168.1.211:502
+
+17/10/2025 13:08:33:389 --> 13:08:33	 connected 
+
+17/10/2025 13:08:33:390 --> 13:08:33	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:08:33:390 --> 13:08:33	 ValueReaded Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:08:40:778 --> 13:08:40	 start 192.168.1.211:502
+
+17/10/2025 13:12:50:706 --> 13:12:50	 start 192.168.1.211:502
+
+17/10/2025 13:12:50:729 --> 13:12:50	 connected 
+
+17/10/2025 13:12:50:730 --> 13:12:50	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:12:58:355 --> 13:12:58	 start 192.168.1.211:502
+
+17/10/2025 13:12:58:371 --> 13:12:58	 connected 
+
+17/10/2025 13:12:58:371 --> 13:12:58	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:06:506 --> 13:13:06	 start 192.168.1.211:502
+
+17/10/2025 13:13:06:510 --> 13:13:06	 connected 
+
+17/10/2025 13:13:06:511 --> 13:13:06	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:17:474 --> 13:13:17	 start 192.168.1.211:502
+
+17/10/2025 13:13:17:478 --> 13:13:17	 connected 
+
+17/10/2025 13:13:17:478 --> 13:13:17	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:26:682 --> 13:13:26	 start 192.168.1.211:502
+
+17/10/2025 13:13:26:687 --> 13:13:26	 connected 
+
+17/10/2025 13:13:26:687 --> 13:13:26	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:33:499 --> 13:13:33	 start 192.168.1.211:502
+
+17/10/2025 13:13:33:517 --> 13:13:33	 connected 
+
+17/10/2025 13:13:33:518 --> 13:13:33	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:38:612 --> 13:13:38	 start 192.168.1.211:502
+
+17/10/2025 13:13:38:622 --> 13:13:38	 connected 
+
+17/10/2025 13:13:38:622 --> 13:13:38	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:13:53:043 --> 13:13:53	 start 192.168.1.211:502
+
+17/10/2025 13:13:53:047 --> 13:13:53	 connected 
+
+17/10/2025 13:13:53:048 --> 13:13:53	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:15:18:385 --> 13:15:18	 start 192.168.1.211:502
+
+17/10/2025 13:15:20:330 --> 13:15:20	 start 192.168.1.211:502
+
+17/10/2025 13:15:20:487 --> 13:15:20	 Error: Argomento fornito non valido.
+
+17/10/2025 13:15:20:610 --> 13:15:20	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 13:15:21:882 --> 13:15:21	 start 192.168.1.211:502
+
+17/10/2025 13:15:22:890 --> 13:15:22	 start 192.168.1.211:502
+
+17/10/2025 13:15:22:990 --> 13:15:22	 Error: Argomento fornito non valido.
+
+17/10/2025 13:15:23:994 --> 13:15:23	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 13:15:31:994 --> 13:15:31	 start 192.168.1.211:502
+
+17/10/2025 13:15:32:003 --> 13:15:32	 connected 
+
+17/10/2025 13:15:32:004 --> 13:15:32	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:15:43:810 --> 13:15:43	 start 192.168.1.211:502
+
+17/10/2025 13:15:43:815 --> 13:15:43	 connected 
+
+17/10/2025 13:15:43:816 --> 13:15:43	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:16:33:842 --> 13:16:33	 start 192.168.1.211:502
+
+17/10/2025 13:16:33:896 --> 13:16:33	 connected 
+
+17/10/2025 13:16:33:897 --> 13:16:33	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:18:31:676 --> 13:18:31	 start 192.168.1.211:502
+
+17/10/2025 13:18:31:711 --> 13:18:31	 connected 
+
+17/10/2025 13:18:31:712 --> 13:18:31	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:32:47:579 --> 13:32:47	 start 192.168.1.211:502
+
+17/10/2025 13:32:47:602 --> 13:32:47	 connected 
+
+17/10/2025 13:32:47:603 --> 13:32:47	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:32:56:321 --> 13:32:56	 start 192.168.1.211:502
+
+17/10/2025 13:32:56:326 --> 13:32:56	 connected 
+
+17/10/2025 13:32:56:327 --> 13:32:56	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:35:30:932 --> 13:35:30	 start 192.168.1.211:502
+
+17/10/2025 13:35:33:116 --> 13:35:33	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 13:35:39:544 --> 13:35:39	 start 192.168.1.211:502
+
+17/10/2025 13:35:41:643 --> 13:35:41	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 13:42:39:447 --> 13:42:39	 start 192.168.1.211:502
+
+17/10/2025 13:42:41:664 --> 13:42:41	 Error: Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione.
+
+17/10/2025 13:43:01:112 --> 13:43:01	 start 192.168.1.211:502
+
+17/10/2025 13:43:01:120 --> 13:43:01	 connected 
+
+17/10/2025 13:43:01:121 --> 13:43:01	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:43:08:719 --> 13:43:08	 start 192.168.1.211:502
+
+17/10/2025 13:43:08:724 --> 13:43:08	 connected 
+
+17/10/2025 13:43:08:724 --> 13:43:08	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:50:26:812 --> 13:50:26	 start 192.168.1.211:502
+
+17/10/2025 13:50:26:865 --> 13:50:26	 connected 
+
+17/10/2025 13:50:26:866 --> 13:50:26	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:50:34:687 --> 13:50:34	 start 192.168.1.211:502
+
+17/10/2025 13:50:34:696 --> 13:50:34	 connected 
+
+17/10/2025 13:50:34:696 --> 13:50:34	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:50:38:471 --> 13:50:38	 start 192.168.1.211:502
+
+17/10/2025 13:50:38:475 --> 13:50:38	 connected 
+
+17/10/2025 13:50:38:476 --> 13:50:38	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:50:41:079 --> 13:50:41	 start 192.168.1.211:502
+
+17/10/2025 13:50:41:081 --> 13:50:41	 connected 
+
+17/10/2025 13:50:41:082 --> 13:50:41	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:50:42:871 --> 13:50:42	 start 192.168.1.211:502
+
+17/10/2025 13:50:42:875 --> 13:50:42	 connected 
+
+17/10/2025 13:50:42:876 --> 13:50:42	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:12:351 --> 13:51:12	 start 192.168.1.211:502
+
+17/10/2025 13:51:12:368 --> 13:51:12	 connected 
+
+17/10/2025 13:51:12:369 --> 13:51:12	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:19:759 --> 13:51:19	 start 192.168.1.211:502
+
+17/10/2025 13:51:19:767 --> 13:51:19	 connected 
+
+17/10/2025 13:51:19:767 --> 13:51:19	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:20:983 --> 13:51:20	 start 192.168.1.211:502
+
+17/10/2025 13:51:20:987 --> 13:51:20	 connected 
+
+17/10/2025 13:51:20:988 --> 13:51:20	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:22:462 --> 13:51:22	 start 192.168.1.211:502
+
+17/10/2025 13:51:22:467 --> 13:51:22	 connected 
+
+17/10/2025 13:51:22:468 --> 13:51:22	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:34:150 --> 13:51:34	 start 192.168.1.211:502
+
+17/10/2025 13:51:34:152 --> 13:51:34	 connected 
+
+17/10/2025 13:51:34:153 --> 13:51:34	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:36:135 --> 13:51:36	 start 192.168.1.211:502
+
+17/10/2025 13:51:36:138 --> 13:51:36	 connected 
+
+17/10/2025 13:51:36:139 --> 13:51:36	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:37:366 --> 13:51:37	 start 192.168.1.211:502
+
+17/10/2025 13:51:37:371 --> 13:51:37	 connected 
+
+17/10/2025 13:51:37:371 --> 13:51:37	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:38:894 --> 13:51:38	 start 192.168.1.211:502
+
+17/10/2025 13:51:38:901 --> 13:51:38	 connected 
+
+17/10/2025 13:51:38:901 --> 13:51:38	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:51:41:310 --> 13:51:41	 start 192.168.1.211:502
+
+17/10/2025 13:51:41:315 --> 13:51:41	 connected 
+
+17/10/2025 13:51:41:315 --> 13:51:41	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:52:43:304 --> 13:52:43	 start 192.168.1.211:502
+
+17/10/2025 13:52:43:345 --> 13:52:43	 connected 
+
+17/10/2025 13:52:43:346 --> 13:52:43	 _client Modbus.Device.ModbusIpMaster
+
+17/10/2025 13:52:44  : 13:52:44	 Read reg:M 0-0 
+17/10/2025 13:52:44  : 13:52:44	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:44  : 13:52:44	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:46  : 13:52:46	 Read reg:M 0-0 
+17/10/2025 13:52:46  : 13:52:46	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:46  : 13:52:46	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:48  : 13:52:48	 Read reg:M 0-0 
+17/10/2025 13:52:48  : 13:52:48	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:48  : 13:52:48	 Read error Argument numberOfPoints must be between 1 and 125 inclusive.
+17/10/2025 13:52:56  : 13:52:56	 Read reg:M 0-100 
+TX: 0, 1, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 1, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 1, 0, 0, 0, 203, 1, 3, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:53:05  : 13:53:05	 Read reg:M 0-100 
+TX: 0, 2, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 2, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 2, 0, 0, 0, 203, 1, 3, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:53:07  : 13:53:07	 Read reg:M 0-100 
+TX: 0, 3, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 3, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 3, 0, 0, 0, 203, 1, 3, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:53:08  : 13:53:08	 Read reg:M 0-100 
+TX: 0, 4, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 4, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 4, 0, 0, 0, 203, 1, 3, 200, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:53:53  : 13:53:53	 Read reg:M 0-100 
+TX: 0, 5, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 5, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 5, 0, 0, 0, 203, 1, 3, 200, 0, 11, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:54:18  : 13:54:18	 Read reg:M 0-100 
+TX: 0, 6, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 6, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 6, 0, 0, 0, 203, 1, 3, 200, 49, 49, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:54:41  : 13:54:41	 Read reg:M 0-100 
+TX: 0, 7, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 7, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 7, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:54:44  : 13:54:44	 Read reg:M 0-100 
+TX: 0, 8, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 8, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 8, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:54:45  : 13:54:45	 Read reg:M 0-100 
+TX: 0, 9, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 9, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 9, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:55:20  : 13:55:20	 Read reg:M 0-100 
+TX: 0, 10, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 10, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 10, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:55:23  : 13:55:23	 Read reg:M 0-100 
+TX: 0, 11, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 11, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 11, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:55:24  : 13:55:24	 Read reg:M 0-100 
+TX: 0, 12, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 12, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 12, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:55:31  : 13:55:31	 Read reg:M 0-100 
+TX: 0, 13, 0, 0, 0, 6, 1, 3, 0, 0, 0, 100
+MBAP header: 0, 13, 0, 0, 0, 203
+203 bytes in PDU.
+PDU: 203
+RX: 0, 13, 0, 0, 0, 203, 1, 3, 200, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101, 114, 32, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+17/10/2025 13:56:02  : 13:56:02	 Read reg:M 0-6 
+TX: 0, 14, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 14, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 14, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:56:15  : 13:56:15	 Read reg:M 0-6 
+TX: 0, 15, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 15, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 15, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:56:18  : 13:56:18	 Read reg:M 0-6 
+TX: 0, 16, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 16, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 16, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:56:33  : 13:56:33	 Read reg:M 0-6 
+TX: 0, 1, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 1, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 1, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:56:34  : 13:56:34	 Read reg:M 0-6 
+TX: 0, 2, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 2, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 2, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:56:38  : 13:56:38	 Read reg:M 0-6 
+TX: 0, 3, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 3, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 3, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 13:57:07  : 13:57:07	 192.168.1.211-1:8 17/10/2025 13:57:15  : 13:57:15	 192.168.1.211-1:8 17/10/2025 13:57:17  : 13:57:17	Richiesta stop 17/10/2025 13:57:19  : 13:57:19	 192.168.1.211-1:8 17/10/2025 13:57:22  : 13:57:22	 192.168.1.211-1:8 17/10/2025 13:57:26  : 13:57:26	 192.168.1.211-1:8 17/10/2025 13:57:31  : 13:57:31	 192.168.1.211-1:8 17/10/2025 13:57:32  : 13:57:32	 192.168.1.211-1:8 17/10/2025 13:57:33  : 13:57:33	 192.168.1.211-1:8 17/10/2025 13:57:33  : 13:57:33	 192.168.1.211-1:8 17/10/2025 13:57:33  : 13:57:33	 192.168.1.211-1:8 17/10/2025 13:57:33  : 13:57:33	 192.168.1.211-1:8 17/10/2025 13:57:33  : 13:57:33	 192.168.1.211-1:8 17/10/2025 13:57:34  : 13:57:34	 192.168.1.211-1:8 17/10/2025 13:57:50  : 13:57:50	 192.168.1.211-1:8 17/10/2025 13:57:51  : 13:57:51	 192.168.1.211-1:8 17/10/2025 13:57:56  : 13:57:56	 192.168.1.211-1:8 17/10/2025 13:58:54  : 13:58:54	 Read reg:M 0-6 
+TX: 0, 1, 0, 0, 0, 6, 1, 3, 0, 0, 0, 6
+MBAP header: 0, 1, 0, 0, 0, 15
+15 bytes in PDU.
+PDU: 15
+RX: 0, 1, 0, 0, 0, 15, 1, 3, 12, 119, 97, 108, 116, 101, 114, 32, 119, 97, 108, 116, 101
+17/10/2025 14:16:47:167 --> 14:16:47	 start 192.168.1.211:502
+
+17/10/2025 14:16:47:194 --> 14:16:47	 connected 
+
+17/10/2025 14:16:47:195 --> 14:16:47	 _client Modbus.Device.ModbusIpMaster
+

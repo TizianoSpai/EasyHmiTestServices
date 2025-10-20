@@ -115,6 +115,7 @@ namespace SimpleHmi.ViewModels
       IpAddress = "192.168.1.211"; //"10.10.10.11"; 
       StartReg = "1"; //"430"; 
       AreaLength = "8"; //"50";
+      Params = "0-0";
 
       OnPlcServiceValuesRefreshed(null, null);
       _plcService.ValuesRefreshed += OnPlcServiceValuesRefreshed;
@@ -129,11 +130,13 @@ namespace SimpleHmi.ViewModels
     private async void Connect()
     {
       await _plcService.ConnectAsync(IpAddress, 501);
+      ConnectionState = _plcService.ConnectionState;
     }
 
     private void Disconnect()
     {
       _plcService.Disconnect();
+      ConnectionState = _plcService.ConnectionState;
     }
 
     private async Task Start()

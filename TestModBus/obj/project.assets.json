@@ -382,15 +382,6 @@
           }
         }
       },
-      "NSModbus4/4.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/NModbus4.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/NModbus4.dll": {}
-        }
-      },
       "Prism.Container.Abstractions/9.0.106": {
         "type": "package",
         "dependencies": {
@@ -1925,7 +1916,6 @@
         "dependencies": {
           "Dapper": "2.1.35",
           "Dapper.SimpleCRUD": "2.3.0",
-          "NSModbus4": "4.0.2",
           "Snet.XinJE": "25.247.1"
         },
         "compile": {
@@ -2662,19 +2652,6 @@
         "newtonsoft.json.13.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
-      ]
-    },
-    "NSModbus4/4.0.2": {
-      "sha512": "kquf8yKba977tegUJsPq3yAqkECJHl6U6ncOhcg97XvGeMmP5qxHOYWJgmg9TJwcJdzTLBE26DOD+N4+GBCnDQ==",
-      "type": "package",
-      "path": "nsmodbus4/4.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net461/NModbus4.dll",
-        "lib/netstandard2.0/NModbus4.dll",
-        "nsmodbus4.4.0.2.nupkg.sha512",
-        "nsmodbus4.nuspec"
       ]
     },
     "Prism.Container.Abstractions/9.0.106": {

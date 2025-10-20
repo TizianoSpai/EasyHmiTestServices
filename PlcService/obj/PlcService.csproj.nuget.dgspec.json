@@ -54,10 +54,6 @@
               "target": "Package",
               "version": "[2.3.0, )"
             },
-            "NSModbus4": {
-              "target": "Package",
-              "version": "[4.0.2, )"
-            },
             "Snet.XinJE": {
               "target": "Package",
               "version": "[25.247.1, )"
