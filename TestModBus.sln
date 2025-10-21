@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleHmiModBus", "TestModB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlcService", "PlcService\PlcService.csproj", "{E9DB6574-499A-824A-5C19-D9DF83795E3D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NModbus4", "NModbus4\NModbus4.csproj", "{BFC93E9E-7DF1-DE76-A516-6A8B8191BBCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9DB6574-499A-824A-5C19-D9DF83795E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC93E9E-7DF1-DE76-A516-6A8B8191BBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC93E9E-7DF1-DE76-A516-6A8B8191BBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC93E9E-7DF1-DE76-A516-6A8B8191BBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC93E9E-7DF1-DE76-A516-6A8B8191BBCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

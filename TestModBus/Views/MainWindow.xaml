@@ -28,7 +28,8 @@
                    Text="Ip address"
                    TextWrapping="Wrap" />
         <TextBox Width="117"
-                 Height="28"
+                 Height="18
+                 "
                  Margin="13,36,0,0"
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top"
@@ -36,22 +37,21 @@
                  Text="{Binding IpAddress}" />
         <Button Width="90"
                 Height="28"
-                Margin="26,96,0,0"
+                Margin="26,73,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Command="{Binding ConnectCommand,
                                   Mode=OneWay}" Content="Connect" />
         <Button Width="90"
                 Height="28"
-                Margin="26,133,0,0"
+                Margin="26,110,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Command="{Binding DisconnectCommand,
-                                  Mode=OneWay}"
-                Content="Disconnect" />
+                                  Mode=OneWay}" Content="Disconnect" />
         <Button Width="110"
                 Height="31"
-                Margin="201,98,0,0"
+                Margin="201,75,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Command="{Binding StartCommand,
@@ -59,7 +59,7 @@
                 Content="Start" />
         <Button Width="110"
                 Height="31"
-                Margin="201,137,0,0"
+                Margin="201,114,0,0"
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Command="{Binding StopCommand,
@@ -77,15 +77,15 @@
             VerticalAlignment="Top"
             ><Run Text="Start registry"/><Run Language="it-it" Text=" D"/><LineBreak/><Run Language="it-it"/></TextBlock>
         <TextBox Width="71"
-            Height="28"
+            Height="18"
             Margin="143,36,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             TextWrapping="Wrap" 
             Text="{Binding StartReg}" />
         <TextBox Width="463"
-            Height="206"
-            Margin="20,208,0,0"
+            Height="238"
+            Margin="20,176,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             TextWrapping="Wrap" 
@@ -97,7 +97,7 @@
             VerticalAlignment="Top" />
 
         <TextBox Width="60"
-            Height="28"
+            Height="18"
             Margin="227,36,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
@@ -106,7 +106,7 @@
 
         <Button Width="75"
             Height="31"
-            Margin="341,99,0,0"
+            Margin="341,76,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Command="{Binding ReadCoilsCommand, Mode=OneWay}"
@@ -120,7 +120,7 @@
             Text="Registry Id-Length"
             />
         <TextBox Width="71"
-            Height="28"
+            Height="18"
             Margin="345,36,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
@@ -128,7 +128,7 @@
             Text="{Binding Params}" />
         <Button Width="75"
             Height="31"
-            Margin="341,137,0,0"
+            Margin="341,114,0,0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
             Command="{Binding ReadHoldingRegCommand, Mode=OneWay}"

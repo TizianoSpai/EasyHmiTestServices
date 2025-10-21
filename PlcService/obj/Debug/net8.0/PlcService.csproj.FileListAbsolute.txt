@@ -42,14 +42,40 @@ C:\Work\TestModBus\PlcService\obj\Debug\net8.0\PlcService.dll
 C:\Work\TestModBus\PlcService\obj\Debug\net8.0\refint\PlcService.dll
 C:\Work\TestModBus\PlcService\obj\Debug\net8.0\PlcService.pdb
 C:\Work\TestModBus\PlcService\obj\Debug\net8.0\ref\PlcService.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.deps.json
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DataAccessShared.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DebugUtil.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\MultiLanguage.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\NModbus4.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\Sharp7Library.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\XNetClient.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DataAccessShared.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DebugUtil.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\NModbus4.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\bin\Debug\net8.0\Sharp7Library.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.sourcelink.json
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.csproj.Up2Date
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\refint\PlcService.dll
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\PlcService.pdb
+C:\Users\user\Documents\Visual Studio 2022\PROJECTS\EasyHmiTestServices\PlcService\obj\Debug\net8.0\ref\PlcService.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.deps.json
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\PlcService.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DataAccessShared.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DebugUtil.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\MultiLanguage.dll
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\NModbus4.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\Sharp7Library.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\XNetClient.dll
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\NModbus4.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DataAccessShared.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\DebugUtil.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\PlcService\bin\Debug\net8.0\Sharp7Library.pdb

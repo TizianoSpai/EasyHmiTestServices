@@ -9,8 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="Dapper.SimpleCRUD" Version="2.3.0" />
-    <PackageReference Include="NSModbus4" Version="4.0.2" />
     <PackageReference Include="Snet.XinJE" Version="25.247.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NModbus4\NModbus4.csproj" />
   </ItemGroup>
 
   <ItemGroup>
