@@ -99,7 +99,7 @@ namespace PlcService
         }
 
         ValueReaded = "";
-        res = GetCoils((uint)reg, (uint)len);
+        res = GetCoils((uint)reg-1, (uint)len);
         for(int i = 0; i < len; i++)
           ValueReaded += (res[i] ? "true" : "false") + " ";
       }
@@ -138,9 +138,9 @@ namespace PlcService
       }
     }
 
-    public ushort[] GetHoldingRegsVarArea(string par)
+    public ushort[] GetHoldingRegsVarArea(string pars)
     {
-      var strings = par.Split('-');
+      var strings = pars.Split('-');
       int reg = Convert.ToInt32(strings[0].Replace("REG", ""));
       int len = Convert.ToInt32(strings[1].Replace("LEN", ""));
       ushort[] res = null;
@@ -154,7 +154,7 @@ namespace PlcService
         }
 
         ValueReaded = "";
-        res = GetHoldingRegs((uint)reg, (uint)len);
+        res = GetHoldingRegs((uint)reg-1, (uint)len);
         for(int i = 0; i<len; i++)
           ValueReaded = ValueReaded + res[i].ToString() + " ";
       }
@@ -241,6 +241,58 @@ namespace PlcService
       MultiReadLoopState = 0;
     }
 
+    public async Task StartPollingAsync(string ip, int port, CancellationToken token, ushort reg, ushort len)
+    {
+      if(MultiReadLoopState != 0)
+        return;
+      MultiReadLoopState = 2;
+      reg = (ushort)(reg - 1);
+      //while(!token.IsCancellationRequested)
+      while(MultiReadLoopState == 2)
+      {
+        try
+        {
+          TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"ReadHoldingRegisters {reg} \n");
+          ushort[] gruppoA = _client.ReadHoldingRegisters(reg, len);
+          //TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"ReadHoldingRegisters 330 \n");
+          //ushort[] gruppoB = _client.ReadHoldingRegisters(330, 1);
+          ValueReaded = "";
+          foreach(ushort value in gruppoA)
+          {
+            ValueReaded += value.ToString()+" ";
+            /*
+            ValueReaded += value.ToString()+"(";
+            ValueReaded += (char)(value & 0xff);
+            ValueReaded += (char)(value >> 8 & 0xff);
+            ValueReaded += ") ";
+            */
+          }
+          TraceDbg.TRACE(DateTime.Now.ToString("HH:mm:ss") + $"fine conversione \n");
+
+          //_viewModel.DispatcherService.Invoke(() =>
+          //{
+          //    _viewModel.GruppoA = gruppoA;
+          //    _viewModel.GruppoB = gruppoB;
+          //});
+          OnValuesRefreshed();
+        }
+        catch(Exception ex) when(!(ex is OperationCanceledException))
+        {
+          // Gestione errori, log o retry
+        }
+
+        try
+        {
+          await Task.Delay(50, token);
+        }
+        catch(OperationCanceledException)
+        {
+          // expected on cancel — break out to finish gracefully
+          break;
+        }
+      }
+      MultiReadLoopState = 0;
+    }
 
     public async void StartTest(string ip)
     {
@@ -248,6 +300,11 @@ namespace PlcService
         await StartPollingAsync(ip, 0, _cts.Token);
     }
 
+    public async void StartTest(string ip, ushort Reg, ushort Len)
+    {
+      if(ConnectionState == ConnectionStates.Online)
+        await StartPollingAsync(ip, 0, _cts.Token, Reg, Len);
+    }
 
     public void StopTest()
     {

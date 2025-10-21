@@ -115,7 +115,7 @@ namespace SimpleHmi.ViewModels
       IpAddress = "192.168.1.211"; //"10.10.10.11"; 
       StartReg = "1"; //"430"; 
       AreaLength = "8"; //"50";
-      Params = "0-0";
+      Params = "1-0";
 
       OnPlcServiceValuesRefreshed(null, null);
       _plcService.ValuesRefreshed += OnPlcServiceValuesRefreshed;
@@ -147,8 +147,8 @@ namespace SimpleHmi.ViewModels
       int.TryParse(AreaLength, out Len);
       TraceDbg.TraceON = true;
       TraceDbg.DBGTraceLog(DateTime.Now.ToString("HH:mm:ss") + $"\t {IpAddress}-{Reg}:{Len} ");
-      _plcService.StartTest(IpAddress);
-
+      //_plcService.StartTest(IpAddress);
+      _plcService.StartTest(IpAddress, (ushort)Reg, (ushort)Len);
     }
 
     private async Task Stop()
