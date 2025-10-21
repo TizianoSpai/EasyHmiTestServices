@@ -13,6 +13,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NModbus4\NModbus4.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="DataAccessShared">
       <HintPath>..\Resources\DataAccessShared.dll</HintPath>
     </Reference>
@@ -21,9 +25,6 @@
     </Reference>
     <Reference Include="MultiLanguage">
       <HintPath>..\DriverXNet_DLL\MultiLanguage.dll</HintPath>
-    </Reference>
-    <Reference Include="NModbus4">
-      <HintPath>..\NModbus4\bin\Debug\net45\NModbus4.dll</HintPath>
     </Reference>
     <Reference Include="Sharp7Library">
       <HintPath>..\Resources\Sharp7Library.dll</HintPath>

@@ -115,7 +115,7 @@ namespace SimpleHmi.ViewModels
       IpAddress = "192.168.1.211"; //"10.10.10.11"; 
       StartReg = "1"; //"430"; 
       AreaLength = "8"; //"50";
-      Params = "1-0";
+      Params = "1-9";
 
       OnPlcServiceValuesRefreshed(null, null);
       _plcService.ValuesRefreshed += OnPlcServiceValuesRefreshed;

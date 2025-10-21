@@ -349,15 +349,15 @@ C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModB
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.IO.Ports.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\DebugUtil.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\MultiLanguage.dll
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\NModbus4.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\PlcService.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\Sharp7Library.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\XNetClient.dll
-C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\NModbus4.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\DataAccessShared.dll
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\PlcService.pdb
+C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\NModbus4.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\DebugUtil.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\Sharp7Library.pdb
-C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\NModbus4.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\bin\Debug\net8.0-windows\DataAccessShared.pdb
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\obj\Debug\net8.0-windows\SimpleHmiModBus.csproj.AssemblyReference.cache
 C:\Users\user\Documents\Visual Studio 2022\GitRepos\EasyHmiTestServices\TestModBus\obj\Debug\net8.0-windows\Views\MainWindow.g.cs
