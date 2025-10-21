@@ -3921,19 +3921,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Tiziano\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
+    "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\EasyHmiTestServices\\TestModBus\\SimpleHmiModBus.csproj",
+      "projectUniqueName": "C:\\Work\\TestModBus\\TestModBus\\SimpleHmiModBus.csproj",
       "projectName": "SimpleHmiModBus",
-      "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\EasyHmiTestServices\\TestModBus\\SimpleHmiModBus.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\EasyHmiTestServices\\TestModBus\\obj\\",
+      "projectPath": "C:\\Work\\TestModBus\\TestModBus\\SimpleHmiModBus.csproj",
+      "packagesPath": "C:\\Users\\Tiziano\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\TestModBus\\TestModBus\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
+        "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tiziano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3941,14 +3954,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\EasyHmiTestServices\\PlcService\\PlcService.csproj": {
-              "projectPath": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\EasyHmiTestServices\\PlcService\\PlcService.csproj"
+            "C:\\Work\\TestModBus\\PlcService\\PlcService.csproj": {
+              "projectPath": "C:\\Work\\TestModBus\\PlcService\\PlcService.csproj"
             }
           }
         }
@@ -3993,7 +4008,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
