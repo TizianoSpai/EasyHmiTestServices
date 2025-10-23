@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PlcService")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SimpleHmiModBus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58178232eb420dde22a3c748ecaef84ff1d2e4d8")]
-[assembly: System.Reflection.AssemblyProductAttribute("PlcService")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PlcService")]
+[assembly: System.Reflection.AssemblyProductAttribute("SimpleHmiModBus")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SimpleHmiModBus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Generato dalla classe WriteCodeFragment di MSBuild.
 
