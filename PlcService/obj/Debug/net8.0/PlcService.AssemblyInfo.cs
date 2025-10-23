@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlcService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f171ab2a8b11db4d9646ceaae3cc8b29ccadbac3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58178232eb420dde22a3c748ecaef84ff1d2e4d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlcService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlcService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

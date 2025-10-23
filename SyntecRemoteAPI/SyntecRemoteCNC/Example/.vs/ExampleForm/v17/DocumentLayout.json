@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|c:\\users\\user\\documents\\visual studio 2022\\gitrepos\\syntecremoteapi\\syntecremotecnc\\example\\exampleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|solutionrelative:exampleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\exampleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|solutionrelative:exampleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|c:\\users\\user\\documents\\visual studio 2022\\gitrepos\\syntecremoteapi\\syntecremotecnc\\example\\exampleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954B70E3-9132-48A4-AA2F-404983CCFD6A}|ExampleForm.csproj|solutionrelative:exampleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExampleForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.Designer.cs",
+              "RelativeDocumentMoniker": "ExampleForm.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.Designer.cs",
+              "RelativeToolTip": "ExampleForm.Designer.cs",
+              "ViewState": "AgIAAEwCAAAAAAAAAAAAwGQCAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:04:52.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExampleForm.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.cs",
+              "RelativeDocumentMoniker": "ExampleForm.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.cs [Progettazione]",
+              "RelativeToolTip": "ExampleForm.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:22:33.526Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExampleForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.cs",
+              "RelativeDocumentMoniker": "ExampleForm.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Visual Studio 2022\\GitRepos\\SyntecRemoteAPI\\SyntecRemoteCNC\\Example\\ExampleForm.cs",
+              "RelativeToolTip": "ExampleForm.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAArwDIBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T11:20:15.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

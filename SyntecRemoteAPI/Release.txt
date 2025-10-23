@@ -1,0 +1,202 @@
+﻿Syntec RemoteCNC API Release Note:
+
+Revision: 1.2.3
+Date:2023/09/20
+	新增(Add)
+		*CNCNET-1667 新增 RemoteAPI支援第三方伺服警報顯示
+
+	修正(Fix)
+		*CNCNET-1651 修正 執行遇網路錯誤導致回傳值錯誤時，API仍回傳執行成功錯誤碼的問題
+		*ISSUE-27395 修正 RemoteAPI取得警報，缺少加工程式名稱、行號等補充資訊的問題
+
+Revision: 1.2.2
+Date:2023/08/23
+	新增(Add)
+		*MMI-5022 新增 System(SYS)警報類別
+		*MMI-5366 新增 支援ECAT禾川驅動器參數顯示、備份還原與警報顯示
+
+	修正(Fix)
+		*ISSUE-21033 修正 因警報字串過長，造成前台掉線的問題
+		*MMI-4974    修正 RemoteAPI 無法取得完整警報字串內容的錯誤
+		*ATEST-2715  修正 RemoteAPI 無法使用 RemoteProgExecute 重啟執行檔的問題
+
+Revision: 1.2.1
+Date:2022/11/07
+	修正(Fix)
+		*MMI-4872 修正 前後台情境, 刀表 api 無法取值問題
+		*MMI-4872 修正 WRITE_param_single 回傳值錯誤問題
+		
+	相容性異動
+		*MMI-4872 移除 RemoteAPI 對上控制器之版本使用限制
+
+Revision: 1.2.0
+Date:2022/04/15
+	新增(Add)
+		*MMI-4707 支援裝置值Polling機制，加速取值效能
+
+	相容性異動
+		*需改為reference Syntec.OpenCNC.dll (MMI-4421)
+		*API讀取時間增加 (MMI-4470)
+
+Revision: 1.1.0
+Date:2019/12/23
+	新增(Add)
+		*支援連線至不同版本的控制器(10.116.36E以後版本)
+
+Revision: 1.0.12
+Date:2016/02/22
+	修正(Fix)
+		*ISSUE-10174 修正 呼叫RemtoeAPI會異常消耗記憶體的問題
+
+Revision: 1.0.11
+Date:2016/12/13
+	修正(Fix)
+		*AUTO-917 修正 RemtoeAPI 無法檔案傳輸的問題(上傳、下載) 
+		*AUTO-917 修正 RemtoeAPI 無法讀取與修改刀補磨耗
+
+	相容性異動
+		v1,v2版本支援WRITE_nc_main功能
+
+Revision: 1.0.10
+Date:2016/07/13
+	相容性異動
+		*_v1對應控制器軟體版本116.10 之前
+		*_v2對應控制器軟體版本116.16x
+		*_v3對應控制器軟體版本116.24x
+		*_v4對應控制器軟體版本116.36 之後
+
+Revision: 1.0.9.2
+Date:2016/02/16
+	新增(Add)
+		*ISSUE-7727 上傳檔案對加工中的檔名進行保護
+
+	修正(Fix)
+		*AUTO-551 ClearCache讓List可先被清空
+
+	相容性異動
+		新增 *ISSUE-7893 RemoteCNC物件建構子可傳入TimeOut引數
+		移除 *ISSUE-7893 不再支援READ_nc_current_block API
+
+
+Revision: 1.0.9.1
+Date:2016/01/26
+	修正(Fix)
+		*ISSUE-7967 自動化OQC使用一段時間記憶體不足的問題
+		
+
+Revision: 1.0.9
+Date:2016/01/25
+	新增(Add)
+		*AUTO-551 ClearCache API
+	修正(Fix)
+		*AUTO-519 Close有機會產生deadlock問題
+		*AUTO-550 IsConnected 判斷錯誤問題
+		*AUTO-591 RemoteAPi使用一段時間記憶體不足問題
+		未連線狀況下呼叫解構子會Crash的問題
+
+Revision: 1.0.8
+Date:2015/11/25
+	新增(Add)
+		*ISSUE-6554：
+		新增支援 10.116.24 相容性異動後的版本
+		新增API ： READ_diskCFreeSpace 取得DiskC的可用空間
+		新增API ： MainBoardPlatformName 主機板型號
+		新增API ： READ_useTime 系統使用期限
+		新增API ： isUSBExist 檢查USB
+		新增API ： READ_remoteTime, WRITE_remoteDate, WRITE_remoteTime 修改系統時間
+		*ISSUE-6853：
+		新增API ： UPLOAD_software, UPLOAD_param_file, UPLOAD_plc_file 更新軟體、參數、PLC
+	修正(Fix)
+		*MMI-1935 記憶體未正確釋放問題
+
+Revision: 1.0.7
+Date: 2014/04/07
+	新增(Add)
+		新增支援 10.116.10 相容性異動後的版本
+
+Revision: 1.0.6 (2nd)
+Date: 2013/11/29
+	新增(Add)
+		新增 API : WRITE_nc_main 指定加工程式
+		新增 API : WRITE_relpos 設定相對座標數值
+		新增 API : READ_plc_type2 取得PLC位址的型別及位址大小
+
+Revision: 1.0.5
+Date: 2013/05/24
+	新增(Add)
+		新增 API : READ_plc_register 讀取 R 值的字串 
+
+Revision: 1.0.4
+Date: 2013/04/10
+	新增(Add)
+		新增 API : IsDipoleSupported 遠端機器是否可以透過 Dipole 連線 
+		新增 API : WRITE_param_single 單一參數寫入 
+		增加 API 說明：IsDipoleSupported, WRITE_param_single, READ_debug_variable, READ_system_variable
+
+	修正(Fix)
+		修正寫入工件座標 SetWorkPiece 函式會將座標值寫入錯誤座標系之問題
+		修正 MultiTCP 無法上傳檔案之問題
+		修正外偏座標無法寫入之問題
+		修正 READ_spindle 函式說明
+
+Revision: 1.0.3
+Date: 2012/12/28
+	新增(Add)
+		新增READ_param_schema API 介面, 可取得參數資料
+		新增DOWNLOAD_plc_ladder API 介面, 可下載遠端ladder
+		新增DOWNLOAD_work_record API 介面, 可下載遠端之加工紀錄檔
+		新增READ_nc_freespace API 介面, 可取得加工檔之資料夾剩餘空間
+		新增READ_nc_current_block API 介面, 可讀取現在執行之單節
+		新增READ_nc_OPLog API 介面, 可讀取遠端之操作記錄
+
+	修正(Fix)
+		修正RemoteServer port會重複之問題
+		修正NcFiles上傳檔案失敗之問題
+		修正遠端連線關閉再呼叫isConnected()時會跳exception之問題
+
+	相容性異動：
+		擴充READ_time API 介面, 增加WorkTime回傳參數
+		擴充READ_nc_mem_list, 增加檔案大小,最後寫入時間,檔案或資料夾之判別
+		優化RemoteAPI, 可支援RemoteServer或MultiTCP兩種模式, 並相容於不同版本的OCAPI
+
+Revision: 1.0.2
+Date: 2012/9/27
+	新增(Add)
+		擴充 READ_part_count API 介面, 增加require_part_count及total_part_count回傳參數
+		新增 SeriesNo Property, 可取得控制器序號
+
+	修正(Fix)
+		修正文件中 READ_part_count , SeriesNo 之說明
+		修正 READ_position 回傳參數之機械座標 相對座標 絕對座標 剩餘距離, 當連線中斷時產生"並未將物件參考設定為物件的執行個體"的問題
+		修正 Example Code中, 若是連線控制器之軸數小於4, AxisName產生"索引在陣列的界限之外"的問題
+		修正 Example Code中, 無法刪除程序SyntecRemoteServer.exe之問題
+
+	相容性異動：
+		擴充 READ_part_count API 介面, 增加require_part_count及total_part_count回傳參數
+		新增 SeriesNo Property, 可取得控制器序號
+
+Revision: 1.0.1
+Date: 2012/7/3
+	新增(Add)
+		擴充 READ_status API 介面, 增加ALARM及EMG回傳參數
+		新增 READ_nc_pointer API, 可取得程式行號
+		新增 Example Code 使用 READ_nc_pointer API說明
+		新增 Example Code 中, 利用timer不斷讀取控制器資料
+
+	修正(Fix)
+		修正文件中 Read_time 資料格式錯誤, 並補充時間單位(秒)
+		修正文件中 READ_status, READ_nc_pointer 說明
+		修正 Example Code中, 若是斷線造成部份READ_Information產生"索引在陣列的界限之外"的問題
+		修正 READ_status 中 CurSeq 規格為程式序號, 非行號
+
+	移除(Remove)
+		移除文件中 READ_nc_freespace, 尚未提供此API
+
+	相容性異動：
+		擴充READ_status API介面, 增加ALARM及EMG回傳參數
+		修正 READ_status 中 CurSeq 規格為程式序號, 非行號
+
+Revision: 1.0.0
+Date: 2012/5/15
+	新增(Add)
+		初版一對多API
