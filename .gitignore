@@ -427,3 +427,16 @@ MigrationBackup/
 /TestModBus/bin/Debug/net8.0-windows/SimpleHmiModBus.dll
 /TestModBus/bin/Debug/net8.0-windows/SimpleHmiModBus.exe
 /TestModBus/bin/Debug/net8.0-windows/SimpleHmiModBus.pdb
+/NModbus4/obj/Debug/net45/NModbus4.assets.cache
+/NModbus4/obj/Debug/net45/NModbus4.csproj.AssemblyReference.cache
+/NModbus4/obj/Debug/net45/NModbus4.GeneratedMSBuildEditorConfig.editorconfig
+/NModbus4/obj/Debug/netstandard1.3/NModbus4.GeneratedMSBuildEditorConfig.editorconfig
+/PlcService/obj/Debug/net8.0/PlcService.GeneratedMSBuildEditorConfig.editorconfig
+/SyntecRemoteAPI/SyntecRemoteCNC/Example/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/SyntecRemoteAPI/SyntecRemoteCNC/Example/obj/x86/Debug/SyntecExample.csproj.AssemblyReference.cache
+/TestModBus/obj/Debug/net8.0-windows/App.g.i.cs
+/TestModBus/obj/Debug/net8.0-windows/GeneratedInternalTypeHelper.g.i.cs
+/TestModBus/obj/Debug/net8.0-windows/SimpleHmiModBus.AssemblyInfo.cs
+/TestModBus/obj/Debug/net8.0-windows/SimpleHmiModBus.GeneratedMSBuildEditorConfig.editorconfig
+/TestModBus/obj/Debug/net8.0-windows/SimpleHmiModBus_MarkupCompile.i.cache
+/TestModBus/obj/Debug/net8.0-windows/SimpleHmiModBus_MarkupCompile.i.lref
